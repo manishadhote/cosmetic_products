@@ -133,7 +133,7 @@ img{
 }
 #card1{
     width: 250;
-    height: 800px;
+    height: 1000px;
     background-color: white;
     text-align: center;
     border-radius: 5px;
@@ -297,7 +297,7 @@ button:hover{
 }
 #crd1{
      width: 250px;
-    height: 800px;
+    height: 1000px;
     background-color: white;
     text-align: center;
     border-radius: 5px;
@@ -330,7 +330,7 @@ button:hover{
 }
 .mau2{
     width: 250px;
-    height: 800px;
+    height: 1000px;
     background-color: white;
     text-align: center;
     border-radius: 5px;
