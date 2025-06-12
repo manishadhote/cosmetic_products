@@ -299,7 +299,9 @@ button{
     margin-bottom: 50px;
 }
 
-
+.menu{
+    gap:80px;
+}
 
 #box2{
     background: url('img1.jpg') center / cover no-repeat;
