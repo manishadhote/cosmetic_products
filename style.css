@@ -189,6 +189,7 @@ button:hover{
     border-radius: 5px;
     margin-left: 300px;
     display: flex;
+    display: flex;
 }
 #card2{
     max-width: 100%;
