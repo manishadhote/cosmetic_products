@@ -141,7 +141,11 @@ img{
     margin: 120px;
     display: flex;
     margin-bottom: 40px;
-    display:flex;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
 }
 img{
     width: 230;
@@ -306,6 +310,11 @@ button:hover{
     display: flex;
     margin-bottom: 40px;   
     display:flex
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
 }
 #crd2{
     text-align: center;
@@ -337,5 +346,9 @@ button:hover{
     margin: 120px;
     display: flex;
     margin-bottom: 40px;
-    display:flex
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
 }
