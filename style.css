@@ -26,7 +26,7 @@ body {
 }
 
 #navlink {
-    display: flex;
+ 
     gap: 20px;
     align-items: center;
 }
@@ -71,7 +71,15 @@ body {
   border: 2px solid #ccc;
   display: block;
 }
-
+.menu-item img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.labell:hover {
+  background-color: hotpink;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 .labell {
   background-color: pink;
   border: none;
