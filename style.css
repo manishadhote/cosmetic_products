@@ -48,25 +48,46 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* MENU SECTION */
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 100px 5% 20px;
-    gap: 20px;
-}
-
 .menu-item {
     width: 100%;
     text-align: center;
 }
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
-.menu-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+.menu-item {
+  text-align: center;
+}
+
+.menu-item img,
+.menu-item .labell {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  display: block;
+}
+
+.labell {
+  background-color: pink;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.label {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
 }
 #box1{ 
 Background:url ('img3.jpg') center/cover no-repeat;
