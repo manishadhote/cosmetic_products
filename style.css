@@ -1,3 +1,5 @@
+
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -11,38 +13,27 @@ body {
     color: #333;
 }
 
+/* NAVBAR */
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
+    position: fixed;
     width: 100%;
-    height: 80px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
     z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 
-#navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.logo {
-    width: 60px;
-    height: auto;
+#navbar-brand img.logo {
+    height: 50px;
 }
 
 #navlink {
     display: flex;
-    align-items: center;
     gap: 20px;
-    /* REMOVE margin-left: 50%; */
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 #navlink a {
@@ -60,57 +51,40 @@ body {
     cursor: pointer;
 }
 
+/* MENU SECTION */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 5% 20px;
+    gap: 20px;
+}
+
 .menu-item {
-    width: 100%;
+    width: 160px;
     text-align: center;
 }
 
-/* 🔻 Responsive CSS 🔻 */
-@media screen and (max-width: 768px) {
-    #navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 15px;
-    }
-
-    #navlink {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        gap: 10px;
-        margin-top: 10px;
-    }
-
-    #navlink a, .btn1 {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .btn1 {
-        text-align: center;
-    }
-
-.menu-item {
+.menu-item img {
     width: 100%;
-    text-align:center;
+    height: auto;
+    border-radius: 10px;
 }
 
-#box1{
-    background:url('img1.jpg') center/cover no-repeat;
-    text-align: left;
-    width: 100%;  
-    height: 400px;
-    margin-bottom:400px;
-    }
-  
-#box2{
-    background:url('img3.jpg') center/cover no-repeat;
-    text-align: left;
-    width: 100%;  
-    height: 0px;
-    margin-bottom:9px;
-    }
+.label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.labell {
+    background-color: #f8bbd0;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* BOX1 HERO SECTION */
 #box1 {
     padding: 80px 5%;
     text-align: center;
@@ -137,6 +111,7 @@ body {
     font-size: 16px;
 }
 
+/* PRODUCT GRIDS */
 #card, #crd1, .mau2 {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +160,8 @@ button {
     border: none;
     border-radius: 6px;
 }
+
+/* MAU1 SECTION */
 .mau1 {
     padding: 40px 5%;
 }
@@ -201,6 +178,7 @@ button {
     margin-bottom: 10px;
 }
 
+/* QA Section */
 #crd2 {
     padding: 40px 5%;
     background: #fce4ec;
@@ -210,6 +188,8 @@ button {
 #crd2 h6 {
     margin-bottom: 10px;
 }
+
+/* Table Sections */
 #crd3 table, #card6 table {
     width: 100%;
     padding: 40px 5%;
@@ -220,6 +200,8 @@ button {
     padding: 10px;
     vertical-align: top;
 }
+
+/* RATING SECTION */
 .rate1 {
     padding: 20px 5%;
     background-color: #f8f9fa;
@@ -240,19 +222,23 @@ button {
 }
 
 .bar {
-    width: 100%;
+    width: 80%;
     height: 10px;
     background-color: #ccc;
     border-radius: 5px;
 }
+
+/* FOOTER LINKS */
 #crd7, #crd5, .links, .copy {
     padding: 10px 5%;
     text-align: center;
 }
+
+/* RESPONSIVE BREAKPOINTS */
 @media (max-width: 768px) {
     #navlink {
         flex-direction: column;
-        gap: 40px;
+        gap: 10px;
     }
 
     .menu {
@@ -274,6 +260,11 @@ button {
 }
 
 @media (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .btn1, .btn2 {
         width: 100%;
     }
@@ -286,7 +277,7 @@ button {
         padding: 50px 5%;
     }
 }
-#card6 img {
+#card6{
    height:200px;
    width:200px;
 }
