@@ -51,7 +51,7 @@ body {
 }
 .menu {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -62,31 +62,32 @@ body {
   text-align: center;
 }
 
-.menu-item img,
-.menu-item .labell {
+.menu-item img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ccc;
   display: block;
-}
-.menu-item img:hover {
-  transform: scale(1.1);
   transition: transform 0.3s ease;
 }
-.labell:hover {
-  background-color: hotpink;
-  color: white;
-  transition: background-color 0.3s ease, color 0.3s ease;
+
+.menu-item img:hover {
+  transform: scale(1.1);
 }
+
 .labell {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
   background-color: pink;
   border: none;
   padding: 10px;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
+  object-fit: cover;
+  display: block;
 }
 
 .label {
