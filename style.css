@@ -1,5 +1,4 @@
 
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -50,8 +48,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* MENU SECTION */
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -83,8 +79,6 @@ body {
     font-weight: bold;
     border-radius: 10px;
 }
-
-/* BOX1 HERO SECTION */
 #box1 {
     padding: 80px 5%;
     text-align: center;
@@ -110,8 +104,6 @@ body {
     border-radius: 6px;
     font-size: 16px;
 }
-
-/* PRODUCT GRIDS */
 #card, #crd1, .mau2 {
     display: flex;
     flex-wrap: wrap;
@@ -160,8 +152,6 @@ button {
     border: none;
     border-radius: 6px;
 }
-
-/* MAU1 SECTION */
 .mau1 {
     padding: 40px 5%;
 }
@@ -177,8 +167,6 @@ button {
 .mau1 li {
     margin-bottom: 10px;
 }
-
-/* QA Section */
 #crd2 {
     padding: 40px 5%;
     background: #fce4ec;
@@ -188,8 +176,6 @@ button {
 #crd2 h6 {
     margin-bottom: 10px;
 }
-
-/* Table Sections */
 #crd3 table, #card6 table {
     width: 100%;
     padding: 40px 5%;
@@ -200,8 +186,6 @@ button {
     padding: 10px;
     vertical-align: top;
 }
-
-/* RATING SECTION */
 .rate1 {
     padding: 20px 5%;
     background-color: #f8f9fa;
@@ -227,14 +211,10 @@ button {
     background-color: #ccc;
     border-radius: 5px;
 }
-
-/* FOOTER LINKS */
 #crd7, #crd5, .links, .copy {
     padding: 10px 5%;
     text-align: center;
 }
-
-/* RESPONSIVE BREAKPOINTS */
 @media (max-width: 768px) {
     #navlink {
         flex-direction: column;
