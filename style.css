@@ -93,7 +93,7 @@ body {
   padding: 20px;
 }
 #box3 {
-  background: url(watermark2.jpg) center/cover no-repeat;
+  background: url('watermark2.jpg') center/cover no-repeat;
   text-align: center;
   padding: 50px 20px;
   color: black;
