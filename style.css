@@ -71,8 +71,6 @@ body {
 .aux1 {
   color: rgb(48, 2, 2);
 }
-
-/* Features Table */
 .aux2 {
   padding: 20px;
 }
@@ -114,8 +112,6 @@ td {
   padding: 10px;
   vertical-align: top;
 }
-
-/* Choose Section */
 .head1 {
   color: darkgreen;
   text-align: center;
@@ -135,8 +131,6 @@ td {
 .boxx11 td, .boxx22 td {
   padding: 15px;
 }
-
-/* List Styles */
 .boxx22 ul, .boxx22 ol {
   text-align: left;
   padding: 0 20px;
