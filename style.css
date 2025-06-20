@@ -1,230 +1,222 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
 }
+
+/* Navbar */
 #navbar {
-  width: 100%;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: rgba(255, 255, 255, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
 }
 
 #navbar-brand .logo {
-  width: 60px;
+    height: 50px;
 }
 
 #navlink {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#navlink a, {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  border: none;
-  background: none;
-  cursor: pointer;
+#navlink a, .btn1 {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    padding: 8px 15px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
+
+.btn1 {
+    background-color: #ff4081;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hero Section */
 #box1 {
-  background: url('watermark1.jpg') center/cover no-repeat;
-  text-align: center;
-  width: 100%;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#box1 h1 {
-  font-size: 48px;
-}
-
-#box1 h4 {
-  font-size: 24px;
-}
-.aux, .aux1 {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.aux {
-  color: rgb(22, 94, 94);
-}
-
-.aux1 {
-  color: rgb(48, 2, 2);
-}
-.aux2 {
-  padding: 20px;
-}
-
-.aux2 img {
-  height: 60px;
-  width: 60px;
-  margin: 10px;
-}
-
-.aux2 table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-}
-
-.aux2 td {
-  padding: 20px;
-}
-#box3 {
-  background: url('watermark2.jpg') center/cover no-repeat;
-  text-align: center;
-  padding: 50px 20px;
-  color: black;
-}
-td img {
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px;
-}
-
-table {
-  width: 100%;
-  margin: 20px 0;
-}
-
-td {
-  padding: 10px;
-  vertical-align: top;
-}
-.head1 {
-  color: darkgreen;
-  text-align: center;
-  margin-top: 20px;
-}
-.boxx11, .boxx22 {
-  padding: 20px;
-  text-align: center;
-}
-
-.boxx11 table, .boxx22 table {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1000px;
-}
-
-.boxx11 td, .boxx22 td {
-  padding: 15px;
-}
-.boxx22 ul, .boxx22 ol {
-  text-align: left;
-  padding: 0 20px;
-}
-.divmain2 {
-  text-align: center;
-  padding: 40px 20px;
-}
-.footer {
-  background-color: darkgreen;
-  color: white;
-  width: 100%;
-  padding: 20px;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-section, .footer_section {
-  flex: 1 1 300px;
-  margin: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li a {
-  color: white;
-  text-decoration: none;
-  margin: 4px 0;
-  display: inline-block;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid #ccc;
-  padding-top: 10px;
-}
-
-.social-icons a img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-}
-@media (max-width: 768px) {
-  #navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  #navlink {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .aux2, .boxx11, .boxx22 {
-    padding: 10px;
-  }
-
-  table, td, tr {
-    display: block;
-    width: 100%;
     text-align: center;
-  }
+    padding: 40px 20px;
+    background: linear-gradient(to right, #ffe5ec, #f9e2e2);
+}
 
-  td img {
-    width: 90%;
-    margin: 0 auto;
-  }
+.hero1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
 
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
+.hero2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
-  .footer-section, .footer_section {
-    width: 100%;
+.btn2 {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Product Categories */
+.mau1 {
+    padding: 30px 20px;
+}
+
+.mau1 h2 {
     text-align: center;
-  }
+    margin-bottom: 20px;
+}
 
-  .social-icons {
+.mau1 ul {
+    list-style: none;
+}
+
+.mau1 li {
+    margin-bottom: 10px;
+}
+
+/* Product Cards */
+#card, #crd1, .mau2 {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+    gap: 20px;
+    padding: 30px 20px;
+}
 
-  .divmain2 {
+#card div, #crd1 div, .mau2 div {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#card img, #crd1 img, .mau2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.prise {
+    color: green;
+    font-weight: bold;
+}
+
+.old-prise {
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+/* Q&A Section */
+#card2 {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#crd2 {
     padding: 20px;
-  }
+}
+
+/* Table Advantages and Disadvantages */
+#crd3 table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+#crd3 td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+#crd3 ul {
+    padding-left: 20px;
+}
+
+/* Customer Questions Images */
+#card6 table {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#card6 img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#card6 p {
+    padding: 10px;
+    font-weight: 500;
+}
+
+/* Footer Section */
+.tab1 {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+}
+
+#crd5 img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.select {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.copy {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #navlink {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #card div, #crd1 div, .mau2 div {
+        width: 100%;
+    }
+
+    #crd3 table, #card6 table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .hero2 {
+        font-size: 1.5rem;
+    }
+
+    .hero1 {
+        font-size: 1.2rem;
+    }
 }
