@@ -75,6 +75,10 @@ body {
     border: none;
     border-radius: 5px;
 }
+.btn2:hover {
+  background: #ff4081;
+  color: white;
+}
 
 /* Product Categories */
 .mau1 {
